@@ -1,4 +1,3 @@
-from math import sqrt, ceil
 import timeit
 
 __author__ = 'rain'

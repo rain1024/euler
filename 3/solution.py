@@ -1,4 +1,5 @@
 from math import sqrt, ceil
+import timeit
 
 __author__ = 'rain'
 from SieveOfAtkin import atkin
@@ -11,4 +12,9 @@ def find_large_prime_factor(n):
             return prime
     return 1
 
-print find_large_prime_factor(600851475143)
+def solve():
+    return find_large_prime_factor(600851475143)
+
+print solve()
+print timeit.timeit(solve, number=10)
+
