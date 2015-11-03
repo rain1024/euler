@@ -1,4 +1,5 @@
 from math import sqrt, ceil
+import timeit
 
 __author__ = 'rain'
 
@@ -17,3 +18,5 @@ def solve():
 
 
 print solve()
+
+print timeit.timeit(solve, number=10)
