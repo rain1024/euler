@@ -33,3 +33,12 @@ def atkin(nmax):
         else:
             pass
     return primes
+
+
+def factors(n):
+    """
+    Code from http://stackoverflow.com/questions/6800193/what-is-the-most-efficient-way-of-finding-all-the-factors-of-a-number-in-python
+    :param n:
+    :return: all factors of n
+    """
+    return set(reduce(list.__add__, ([i, n//i] for i in range(1, int(n**0.5) + 1) if n % i == 0)))
