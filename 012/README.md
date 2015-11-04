@@ -1,0 +1,1 @@
+[!] This was hard problem if we must find the triangular with exactly 500 factors.
