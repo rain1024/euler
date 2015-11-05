@@ -1,1 +1,1 @@
-This is interesting challenge one.
+This is an interesting challenge about [Collatz conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture).
